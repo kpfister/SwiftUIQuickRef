@@ -17,6 +17,10 @@
 		415639492B7BFA5F00A36CF5 /* VStack_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415639482B7BFA5F00A36CF5 /* VStack_Nesting.swift */; };
 		4156394B2B7BFDD000A36CF5 /* VStackSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156394A2B7BFDD000A36CF5 /* VStackSpacing.swift */; };
 		4156394D2B7BFFCF00A36CF5 /* VStackAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4156394C2B7BFFCF00A36CF5 /* VStackAlignment.swift */; };
+		417304FB2B86760000DDF305 /* LazyVStackIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417304FA2B86760000DDF305 /* LazyVStackIntro.swift */; };
+		417304FD2B867A9100DDF305 /* LazyStackAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417304FC2B867A9100DDF305 /* LazyStackAlignment.swift */; };
+		417304FF2B867C2600DDF305 /* LazyVStackScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417304FE2B867C2600DDF305 /* LazyVStackScrolling.swift */; };
+		417305012B867CCE00DDF305 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417305002B867CCE00DDF305 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		415639482B7BFA5F00A36CF5 /* VStack_Nesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Nesting.swift; sourceTree = "<group>"; };
 		4156394A2B7BFDD000A36CF5 /* VStackSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackSpacing.swift; sourceTree = "<group>"; };
 		4156394C2B7BFFCF00A36CF5 /* VStackAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackAlignment.swift; sourceTree = "<group>"; };
+		417304FA2B86760000DDF305 /* LazyVStackIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackIntro.swift; sourceTree = "<group>"; };
+		417304FC2B867A9100DDF305 /* LazyStackAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackAlignment.swift; sourceTree = "<group>"; };
+		417304FE2B867C2600DDF305 /* LazyVStackScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackScrolling.swift; sourceTree = "<group>"; };
+		417305002B867CCE00DDF305 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 				415639372B7BF7BA00A36CF5 /* Assets.xcassets */,
 				415639392B7BF7BA00A36CF5 /* Preview Content */,
 				415639472B7BFA4200A36CF5 /* VStacks */,
+				417305022B867CD900DDF305 /* Mock Data */,
 			);
 			path = SwiftUIQuickRef;
 			sourceTree = "<group>";
@@ -89,8 +98,19 @@
 				415639482B7BFA5F00A36CF5 /* VStack_Nesting.swift */,
 				4156394A2B7BFDD000A36CF5 /* VStackSpacing.swift */,
 				4156394C2B7BFFCF00A36CF5 /* VStackAlignment.swift */,
+				417304FA2B86760000DDF305 /* LazyVStackIntro.swift */,
+				417304FC2B867A9100DDF305 /* LazyStackAlignment.swift */,
+				417304FE2B867C2600DDF305 /* LazyVStackScrolling.swift */,
 			);
 			path = VStacks;
+			sourceTree = "<group>";
+		};
+		417305022B867CD900DDF305 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				417305002B867CCE00DDF305 /* MockData.swift */,
+			);
+			path = "Mock Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,12 +184,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4156394B2B7BFDD000A36CF5 /* VStackSpacing.swift in Sources */,
+				417305012B867CCE00DDF305 /* MockData.swift in Sources */,
 				415639362B7BF7B700A36CF5 /* ContentView.swift in Sources */,
 				415639342B7BF7B700A36CF5 /* SwiftUIQuickRefApp.swift in Sources */,
 				4156394D2B7BFFCF00A36CF5 /* VStackAlignment.swift in Sources */,
 				415639492B7BFA5F00A36CF5 /* VStack_Nesting.swift in Sources */,
+				417304FB2B86760000DDF305 /* LazyVStackIntro.swift in Sources */,
 				415639462B7BF95C00A36CF5 /* VStack_Intro.swift in Sources */,
+				417304FF2B867C2600DDF305 /* LazyVStackScrolling.swift in Sources */,
 				415639422B7BF7D700A36CF5 /* HStack_Intro.swift in Sources */,
+				417304FD2B867A9100DDF305 /* LazyStackAlignment.swift in Sources */,
 				415639442B7BF8F700A36CF5 /* HeaderViewMM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
