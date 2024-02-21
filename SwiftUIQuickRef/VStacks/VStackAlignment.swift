@@ -16,7 +16,9 @@ struct VStackAlignment: View {
                 .font(.title)
                 .foregroundStyle(.gray)
             Text("By default, views in a VStack are CENTER aligned.")
-            
+                .font(.title)
+                .background(.blue)
+                .foregroundStyle(.white)
             /// Leading
             VStack(alignment: .leading, spacing: 40) {
                 Text("Leading alignment")
